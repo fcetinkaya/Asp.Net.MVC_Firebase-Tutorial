@@ -1,0 +1,56 @@
+﻿@model AspnetMVC_FirebaseTutorial.Models.Student
+
+@{
+    ViewBag.Title = "Student Details";
+}
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.student_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.student_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fullname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fullname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.degree_title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.degree_title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new {  id = Model.student_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
