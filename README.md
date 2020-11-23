@@ -39,8 +39,7 @@
 4. File Upload to Bucket
 
 ## Screenshots
-![Example screenshot](./product_list.jpg)
-![Example screenshot](./product_AddImage.jpg)
+![Example screenshot](./ScreenShort.jpg)
 
 ## Technologies
 * .NET Framework 4.6.1+
