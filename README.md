@@ -22,13 +22,13 @@
 
 1. Signin with Gmail Account
 
-2. Create Project In Firebase 
+2. Create Project In Firebase
 3. Copy Secret Key for Authentication
 4. Create Realtime Database and Copy database Path (Secret Key and Database Path use to Firebase Configuration in C#)
 5. Create Asp.net MVC Project
 6. Add Firesharp nugget and Add reference in project
-7. Add Model and Controller
-8. Firebase Configuration in Controller
+7. Add Model and Controller.
+8. Firebase Configuration in Controller.
 
 
 <h4> Firebase Storage</h4>
